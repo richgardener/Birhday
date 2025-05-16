@@ -1,7 +1,7 @@
 // === CONFIG ===
 const gridCols = 3;
 const gridRows = 3;
-const devMode = true; // true = режим разработчика
+const devMode = false; // true = режим разработчика
 
 // === STATE ===
 let container = document.getElementById('puzzle-container');
