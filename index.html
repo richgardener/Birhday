@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Birthday</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <img id="reference-image" style="display: none" />
+
+  <div id="puzzle-wrapper">
+    <div id="top-panel">
+      <!-- Ваша панель: шаги / время / кнопка -->
+      <div><span id="step-count">0</span></div>
+      <div><button id="restart-button">🔄</button></div>
+      <div><span id="timer">0:00</span></div>
+    </div>
+  
+    <div id="puzzle-container"></div>
+  
+    <div id="bottom-panel"></div>
+  </div>  
+
+  <div id="final-question">
+    <div class="question-box">
+      <p>Ви знаєте цю жіночку?</p>
+      <div class="buttons">
+        <button id="btn-yes">Так</button>
+        <button id="btn-no">Ні</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="second-denial" style="display: none;" class="question-box">
+    <p>Не брешіть, розробник все знає 😏</p>
+    <button id="btn-gift">Отримати подарунок 🎁</button>
+  </div>  
+
+  <script src="game.js"></script>
+  <script src="script.js"></script>
+  <script src="hearts.js"></script>
+
+</body>
+</html>
